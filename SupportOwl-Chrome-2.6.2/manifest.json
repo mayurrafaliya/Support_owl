@@ -1,0 +1,66 @@
+{
+  "manifest_version": 3,
+  "name": "Support Owl \u2014 Personal Support Assistant",
+  "version": "2.6.2",
+  "minimum_chrome_version": "116",
+  "description": "Local support articles, your own templates and snippets, session clipboard, and live command suggestions.",
+  "permissions": [
+    "storage",
+    "contextMenus",
+    "clipboardWrite",
+    "sidePanel",
+    "alarms"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Support Owl",
+    "default_icon": {
+      "16": "icons/owl-16.png",
+      "32": "icons/owl-32.png"
+    }
+  },
+  "options_page": "library.html",
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "core.js",
+        "pets.js",
+        "ui.js",
+        "commands.js",
+        "content.js"
+      ],
+      "run_at": "document_idle",
+      "all_frames": true
+    }
+  ],
+  "commands": {
+    "toggle-assistant": {
+      "suggested_key": {
+        "default": "Alt+Shift+O"
+      },
+      "description": "Search selected text with Support Owl"
+    }
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'none'; connect-src 'self' https://docs.rocket.new https://www.rocket.new"
+  },
+  "icons": {
+    "16": "icons/owl-16.png",
+    "32": "icons/owl-32.png",
+    "48": "icons/owl-48.png",
+    "128": "icons/owl-128.png"
+  },
+  "host_permissions": [
+    "https://docs.rocket.new/*",
+    "https://www.rocket.new/*"
+  ]
+}

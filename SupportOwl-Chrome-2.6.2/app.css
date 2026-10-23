@@ -1,0 +1,1 @@
+html,body{margin:0;background:#f5f8f8;color-scheme:light;font-family:system-ui}body.popup{width:420px;height:480px}.popup #app,.sidepanel #app{height:100%}.sidepanel{height:100vh}.library{padding:20px}.library #app{height:calc(100vh - 40px);max-width:680px;margin:auto}

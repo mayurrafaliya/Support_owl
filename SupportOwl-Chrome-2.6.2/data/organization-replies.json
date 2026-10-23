@@ -1,0 +1,54 @@
+{
+  "entries": [
+    {
+      "id": "org-reply-29a6c662d5511764afe8",
+      "kind": "template",
+      "title": "Refund processed",
+      "body": "Hey there,\n\nI’ve processed a refund of USD XX to your payment method. Per Stripe’s policy, the amount should appear in your account within 5 working days. Additionally, your subscription has been successfully cancelled immediately, so you won’t be charged further.\n\nOur platform is evolving rapidly. Please revisit the platform in a few weeks to see what's changed and whether you can use it. We always look forward to welcoming you back to Rocket.",
+      "alias": "",
+      "source": "",
+      "tags": "",
+      "updated": 0
+    },
+    {
+      "id": "org-reply-9569ad00b3a9db106727",
+      "kind": "template",
+      "title": "Duplicate Email",
+      "body": "Hey there,\n\nI've already responded to your other thread regarding the issue. To keep things organized and avoid confusion, I'll be closing this thread and would request you to continue the conversation on that thread.\n\nLet me know if you have any further questions on the other thread. Happy to help.",
+      "alias": "",
+      "source": "",
+      "tags": "",
+      "updated": 0
+    },
+    {
+      "id": "org-reply-17bdfe48f297d0007ae3",
+      "kind": "template",
+      "title": "Deny refund",
+      "body": "Hey there, \n\nThanks for reaching out. I understand your concern about the recent subscription renewal and your refund request. After reviewing your account, I apologise, but we can't process a refund in this case.\n\nAs outlined in our Terms of Service, subscriptions renew automatically unless canceled before the renewal date. Because the subscription was active at renewal, we processed the charge as scheduled.\n\nI'd also like to mention that we send a reminder before each renewal to the registered email, letting you know the renewal is coming up so it can be cancelled in advance if you'd prefer not to continue. This is in addition to the renewal receipt sent once the charge goes through.\n\nDuring the subscription period, your account continued to have access to the services included with your plan, the ability to develop and modify them, custom domain publishing capabilities, and credit allocations associated with your subscription. These services remained active and available throughout the billing period.\n\nIf you have already cancelled your subscription, no further renewals will occur. Your subscription will remain active until the end of the current billing cycle, after which it will expire automatically. If you haven't cancelled your plan and want to do so, refer to this Cancellation guide to learn how to cancel your plan.\n\nI understand this may not be the outcome you were hoping for, and I sincerely apologise for any disappointment. However, because the subscription was active at the time of renewal and the associated services remained available on the account, we can't make an exception to our refund policy.\n\nThank you for your understanding. Please let us know if you have any questions about your subscription, and we'll be happy to assist.",
+      "alias": "",
+      "source": "",
+      "tags": "",
+      "updated": 0
+    },
+    {
+      "id": "org-reply-c341f78cfffc98dc0b3f",
+      "kind": "template",
+      "title": "Consent given",
+      "body": "Hey there,\n\nThank you for giving us your consent.\n\nOur team will now proceed with the investigation and work on this. I’ll keep you updated as soon as I hear back from them with any findings or further information.\n\nThank you for your patience and cooperation while we work on this.\n",
+      "alias": "",
+      "source": "",
+      "tags": "",
+      "updated": 0
+    },
+    {
+      "id": "org-reply-8693768c7e085dabc8e5",
+      "kind": "template",
+      "title": "Grant access",
+      "body": "Hey there,\n\nI’m sorry for the inconvenience you’ve been experiencing. We’ve escalated the details you shared to our team for further investigation and will continue working on the issue.\n\nTo proceed, please grant Support Access through the Rocket.new application. This will allow our team to:\nAccess your project, codebase, and related data to investigate and resolve the issue you reported.\nTest your application and, if needed, create temporary test data, which will be removed after testing.\nMake only the changes required to address the reported issue and use your data only for this purpose.\nAccess connected services such as Supabase, Twilio, Resend, or Stripe if required for troubleshooting.\nYou can control the duration of Support Access and revoke it at any time from the application.\n\nHow to Grant Support Access\nOpen the task from Rocket.new that you raised the query for.\nClick the down arrow next to the task name.\nSelect Settings → Task Overview → Grant Support Access.\nEnable the toggle, select your preferred access duration, and click Grant Access.\nOnce you grant access, there is no need to reply to this email. Our team will automatically be notified and can proceed with the investigation.\n\nUntil Support Access is granted, your query will remain paused as our team won’t be able to access or modify your project.\n\nThank you for your cooperation.\n",
+      "alias": "",
+      "source": "",
+      "tags": "",
+      "updated": 0
+    }
+  ]
+}
